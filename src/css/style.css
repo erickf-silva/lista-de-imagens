@@ -1,0 +1,44 @@
+html {
+    font-family: 'Public Sans', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.pictures {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pictures .picture {
+    width: 335px;
+    height: 431px;
+    position: relative;
+}
+
+.pictures .picture img {
+    width: 100%;
+}
+
+.pictures .picture .informations {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    color: #fff;
+}
+
+.pictures .picture .informations .title {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.pictures .picture .informations .subtitle {
+    font-size: 17px;
+    font-weight: 300;
+}
